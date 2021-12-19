@@ -18,7 +18,7 @@
       <nav class="navbar navbar-expand-lg navbar-dark navbar-main">
       <div class="container">
 
-        <a class="navbar-brand navbar-brand-logo" href="/"><img src="img/logo.svg" alt="">OPTIMINE</a>
+        <a class="navbar-brand navbar-brand-logo" href="/"><img src="img/logo.svg" alt=""><span class="d-none d-md-inline-block">OPTIMINE</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,12 +50,16 @@
 
     <div class="row">
       <div class="col-12 col-lg-6">
-          <div class="d-flex align-items-center mt-5" style="height: 80vh;">
+          <div class="d-flex align-items-md-center justify-content-center justify-content-md-start mt-5 mt-md" style="height: 80vh;">
             <div class="main-block d-flex align-items-start flex-column">
-              <span class="main-title">OPTIMINE</span>
-              <span class="main-subtitle">Сервера твоей мечты</span>
-              <a class="btn btn-om btn-success my-3" href="/users/log_out">Играть сейчас</a>
-              <div class="dws-main">
+              <span class="main-title d-none d-md-block">OPTIMINE</span>
+              <span class="main-title main-title-md d-block d-md-none text-center">OPTIMINE</span>
+
+              <span class="main-subtitle d-none d-md-block">Сервера твоей мечты</span>
+
+              <a class="btn btn-om btn-success my-3 mx-auto mx-md-0" href="/users/log_out">Играть сейчас</a>
+              <div class="dws-main mx-auto mx-md-0 mt-4 mt-md-0">
+                
                 <a href="#"><img class="dws-main-w" src="img/windows.svg" alt=""></a>
                 <a href="#" class="px-4"><img class="dws-main-m" src="img/mac.svg" alt=""></a>
                 <a href="#"><img class="dws-main-l" src="img/linux.svg" alt=""></a>
